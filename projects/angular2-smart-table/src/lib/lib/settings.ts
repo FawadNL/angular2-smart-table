@@ -95,7 +95,6 @@ export interface Actions {
   add?: boolean;
   edit?: boolean;
   delete?: boolean;
-  hide?: boolean;
   position?: 'left' | 'right';
   custom?: CustomAction[];
 }
