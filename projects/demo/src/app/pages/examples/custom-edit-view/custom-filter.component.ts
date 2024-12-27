@@ -17,4 +17,7 @@ import {DefaultFilter} from 'angular2-smart-table';
     standalone: false
 })
 export class CustomFilterComponent extends DefaultFilter {
+onValueChanged(arg0: string) {
+throw new Error('Method not implemented.');
+}
 }
